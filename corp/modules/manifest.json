@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T23:38:59.575Z",
+  "generatedAt": "2026-10-30T23:40:57.721Z",
   "modules": {
     "webdashboard": {
       "snapshot": "unknown"
@@ -8,6 +8,9 @@
       "snapshot": "unknown"
     },
     "webfinance": {
+      "snapshot": "unknown"
+    },
+    "websettings": {
       "snapshot": "unknown"
     }
   }
