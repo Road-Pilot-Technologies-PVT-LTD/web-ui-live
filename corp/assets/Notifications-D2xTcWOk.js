@@ -1,0 +1,1 @@
+import{a as e,n as t,r as n,t as r}from"./notifications-b8YG96tZ.js";var i=e();function a(){return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(`h1`,{className:`page-title`,children:`Notifications`}),(0,i.jsx)(`div`,{className:`notif-list`,children:r.items.map(e=>(0,i.jsx)(t,{component:n,item:e},e.id))})]})}export{a as default};

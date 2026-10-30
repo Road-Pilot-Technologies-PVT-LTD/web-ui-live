@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-10-30T23:38:59.575Z",
+  "modules": {
+    "webdashboard": {
+      "snapshot": "unknown"
+    },
+    "webUsers": {
+      "snapshot": "unknown"
+    },
+    "webfinance": {
+      "snapshot": "unknown"
+    }
+  }
+}

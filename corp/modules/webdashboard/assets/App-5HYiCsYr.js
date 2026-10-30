@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-XZCAhM7K.js";var t=e();function n(){return(0,t.jsxs)(`div`,{className:`module`,children:[(0,t.jsx)(`h1`,{children:`webdashboard`}),(0,t.jsxs)(`p`,{children:[`Dashboard module. Exposed as `,(0,t.jsx)(`code`,{children:`webdashboard/App`}),`, consumed by RPTPLIN.`]})]})}export{n as t};
