@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RPTPL Web — Live UI</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, sans-serif; max-width: 720px; margin: 0 auto; padding: 2rem 1rem; }
+  h1 { font-size: 1.4rem; }
+  ul { list-style: none; padding: 0; display: grid; gap: .5rem; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+  a { display: block; padding: .75rem 1rem; border: 1px solid #8884; border-radius: 8px; text-decoration: none; color: inherit; }
+  a:hover { border-color: #888; background: #8881; }
+  small { opacity: .6; }
+</style>
+</head>
+<body>
+<h1>RPTPL Web — Live UI previews</h1>
+<p><small>Rebuilt automatically from each app's repo on new commits.</small></p>
+<ul id="apps"></ul>
+<script>
+const apps = [
+  ["main", "RPTPLMain"], ["corp", "RPTPLWebCorp"], ["job", "webJobs"],
+  ["settings", "websettings"], ["frontcomponents", "WebAppearance"], ["auth", "WebAuth"],
+  ["dashboard", "webdashboard"], ["driver", "WebDrivers"], ["finance", "webfinance"],
+  ["notifications", "WebNotifications"], ["user", "webUsers"], ["general", "webtbkm"],
+  ["components", "WebUIComponents"],
+];
+const base = location.pathname.replace(/\/[^/]*$/, "/");
+document.getElementById("apps").innerHTML = apps
+  .map(([sub, repo]) => `<li><a href="${base}${sub}/">${sub}<br><small>${repo}</small></a></li>`)
+  .join("");
+</script>
+</body>
+</html>
